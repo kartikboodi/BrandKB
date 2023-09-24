@@ -1,0 +1,15 @@
+:root {
+  --line-xxxxxs: calc(2rem / 16);
+  --line-xxxxs: calc(3rem / 16);
+  --line-xxxs: calc(4rem / 16);
+  --line-xxs: calc(6rem / 16);
+  --line-xs: calc(10rem / 16);
+  --line-s: calc(14rem / 16);
+  --line-m: calc(18rem / 16);
+  --line-l: calc(22rem / 16);
+  --line-xl: calc(26rem / 16);
+  --line-xxl: calc(30rem / 16);
+  --line-xxxl: calc(34rem / 16);
+  --line-xxxxl: calc(38rem / 16);
+  --line-xxxxxl: calc(44rem / 16);
+}

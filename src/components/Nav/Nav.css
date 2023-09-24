@@ -1,0 +1,29 @@
+@import "../../vars/index.css";
+
+.navbar .container {
+  max-width: 100%;
+  margin: var(--zero) var(--space-l);
+}
+
+.navbar-brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  height: var(--space-xl);
+  width: var(--space-xl);
+  border-radius: 25%;
+  border: var(--space-xxxxs) solid whitesmoke;
+  padding: var(--space-xxxxs);
+  font-size: var(--space-s);
+  margin-right: var(--space-xxs);
+}
+
+.logo {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}

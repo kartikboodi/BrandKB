@@ -1,0 +1,31 @@
+@import "../../vars";
+
+.Header {
+  display: block;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.first {
+  font-size: var(--font-xxxxl);
+  font-weight: var(--font-black);
+  line-height: var(--line-xxxxxl);
+}
+
+.second {
+  font-size: var(--font-xxxl);
+  font-weight: var(--font-bold-xl);
+  line-height: var(--line-xxxxl);
+}
+
+.third {
+  font-size: var(--font-xl);
+  font-weight: var(--font-bold);
+  line-height: var(--line-xxl);
+}
+
+.fourth {
+  font-size: var(--font-l);
+  font-weight: var(--font-bold);
+  line-height: var(--line-xl);
+}
