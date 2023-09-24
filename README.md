@@ -1,1 +1,1 @@
-"# BrandKB" 
+# BrandKB
