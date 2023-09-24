@@ -1,0 +1,11 @@
+:root {
+  --font-light-xs: 100;
+  --font-light-xs: 200;
+  --font-light-s: 300;
+  --font-bold-m: 400;
+  --font-bold: 500;
+  --font-bold-l: 600;
+  --font-bold-xl: 700;
+  --font-bold-xxl: 800;
+  --font-black: 900;
+}

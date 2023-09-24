@@ -1,0 +1,16 @@
+:root {
+  --space-xxxxxxs: calc(1rem / 16);
+  --space-xxxxxs: calc(2rem / 16);
+  --space-xxxxs: calc(3rem / 16);
+  --space-xxxs: calc(4rem / 16);
+  --space-xxs: calc(8rem / 16);
+  --space-xs: calc(12rem / 16);
+  --space-s: calc(16rem / 16);
+  --space-m: calc(24rem / 16);
+  --space-l: calc(32rem / 16);
+  --space-xl: calc(48rem / 16);
+  --space-xxl: calc(56rem / 16);
+  --space-xxxl: calc(64rem / 16);
+  --space-xxxxl: calc(72rem / 16);
+  --space-xxxxxl: calc(80rem / 16);
+}

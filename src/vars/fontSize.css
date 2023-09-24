@@ -1,0 +1,15 @@
+:root {
+  --font-xxxxxs: calc(1rem / 16);
+  --font-xxxxs: calc(2rem / 16);
+  --font-xxxs: calc(3rem / 16);
+  --font-xxs: calc(4rem / 16);
+  --font-xs: calc(8rem / 16);
+  --font-s: calc(12rem / 16);
+  --font-m: calc(16rem / 16);
+  --font-l: calc(20rem / 16);
+  --font-xl: calc(24rem / 16);
+  --font-xxl: calc(28rem / 16);
+  --font-xxxl: calc(32rem / 16);
+  --font-xxxxl: calc(36rem / 16);
+  --font-xxxxxl: calc(42rem / 16);
+}

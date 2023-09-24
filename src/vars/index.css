@@ -1,0 +1,8 @@
+@import "./fontSize.css";
+@import "./fontWeight.css";
+@import "./lineHeight.css";
+@import "./space.css";
+
+:root {
+  --zero: 0;
+}
