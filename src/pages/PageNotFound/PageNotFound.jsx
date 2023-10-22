@@ -7,8 +7,8 @@ import "./PageNotFound.css";
 
 const PageNotFound = () => {
   return (
-    <Layout>
-      <div className="PageNotFound">
+    <div className="PageNotFound">
+      <Layout>
         <div className="ErrorCode">
           <span>4</span>
           <img className="lostEmoji" src={lostEmoji} alt="lost emoji" />
@@ -16,8 +16,8 @@ const PageNotFound = () => {
         </div>
         <span className="Oops">Oops!</span>
         <Header rank={HeaderRanks.FIRST}>Looks like you're lost</Header>
-      </div>
-    </Layout>
+      </Layout>
+    </div>
   );
 };
 

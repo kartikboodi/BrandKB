@@ -1,0 +1,20 @@
+@import "../../vars/index.css";
+
+.ProfilePage {
+  display: flex;
+  justify-content: center;
+}
+
+.ProfileImageContainer {
+  display: inline-flex;
+  border: var(--space-xxxxxs) solid var(--color-yellow-green);
+  width: calc(2 * var(--space-xxxxxl));
+  border-radius: 50%;
+  margin: var(--space-s);
+}
+
+.ProfileImage {
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 100%;
+}
