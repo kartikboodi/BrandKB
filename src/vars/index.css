@@ -2,6 +2,7 @@
 @import "./fontWeight.css";
 @import "./lineHeight.css";
 @import "./space.css";
+@import "./color.css";
 
 :root {
   --zero: 0;

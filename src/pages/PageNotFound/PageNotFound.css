@@ -1,0 +1,69 @@
+@import "../../vars/index.css";
+
+.Layout {
+  width: 100%;
+  margin: 0%;
+  background: var(--bg-gradient-page-not-found);
+}
+
+.PageNotFound {
+  color: var(--color-page-not-found-text);
+  text-align: center;
+}
+
+.ErrorCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(6 * var(--font-xxxxxl));
+  line-height: calc(6 * var(--font-xxxxxl));
+  padding: var(--space-l);
+}
+
+.lostEmoji {
+  width: calc(4 * var(--font-xxxxxl));
+  height: calc(4 * var(--font-xxxxxl));
+}
+
+.Oops {
+  font-size: calc(3 * var(--font-xxxxxl));
+}
+
+@media (max-width: 600px) {
+  .ErrorCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(4 * var(--font-xxxxxl));
+    height: calc(2 * var(--space-xxxxl));
+  }
+
+  .lostEmoji {
+    width: calc(2 * var(--font-xxxxxl));
+    height: calc(2 * var(--font-xxxxxl));
+  }
+
+  .Oops {
+    font-size: calc(2 * var(--font-xxxxxl));
+  }
+}
+
+@media (max-width: 400px) {
+  .ErrorCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(3 * var(--font-xxxxxl));
+    height: calc(var(--space-xxxxl));
+    padding: var(--space-xxl);
+  }
+
+  .lostEmoji {
+    width: calc(var(--font-xxxxxl));
+    height: calc(var(--font-xxxxxl));
+  }
+
+  .Oops {
+    font-size: calc(var(--font-xxxxxl));
+  }
+}

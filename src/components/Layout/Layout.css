@@ -1,0 +1,7 @@
+@import "../../vars/index.css";
+
+.Layout {
+  height: 100vh;
+  width: auto;
+  margin: var(--zero) var(--space-xxxxxl) var(--zero) var(--space-xxxxxl);
+}
