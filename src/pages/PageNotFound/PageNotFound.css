@@ -1,14 +1,14 @@
 @import "../../vars/index.css";
 
-.Layout {
-  width: 100%;
-  margin: 0%;
-  background: var(--bg-gradient-page-not-found);
-}
-
 .PageNotFound {
   color: var(--color-page-not-found-text);
   text-align: center;
+}
+
+.PageNotFound .Layout {
+  width: 100%;
+  margin: 0%;
+  background: var(--bg-gradient-page-not-found);
 }
 
 .ErrorCode {
