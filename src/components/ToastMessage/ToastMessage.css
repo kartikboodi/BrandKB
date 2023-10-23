@@ -1,0 +1,12 @@
+@import "../../vars/index.css";
+
+.Toastify .Toastify__toast-container {
+  width: calc(5 * var(--space-xxxxxl));
+}
+
+.Toastify .Toastify__toast--info {
+  background-color: var(--color-toast-info);
+  color: black;
+  opacity: 0.9;
+  font-weight: var(--font-bold);
+}
