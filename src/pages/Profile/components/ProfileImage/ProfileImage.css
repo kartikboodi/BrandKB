@@ -1,0 +1,34 @@
+@import "../../../../vars/index.css";
+
+.ProfileImageContainer {
+  display: inline-flex;
+  border: var(--space-xxxxxs) solid var(--color-yellow-green);
+  max-width: calc(2 * var(--space-xxxxxl));
+  max-height: calc(2 * var(--space-xxxxxl));
+  border-radius: 50%;
+  margin: var(--space-s);
+  margin-left: var(--zero);
+  margin-bottom: var(--zero);
+}
+
+.ProfileImage {
+  border-radius: 50%;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .ProfileImageContainer {
+    border: var(--space-xxxxxxs) solid var(--color-yellow-green);
+    max-width: calc(1.5 * var(--space-xxxxxl));
+    max-height: calc(1.5 * var(--space-xxxxxl));
+    border-radius: 50%;
+    margin: var(--space-xxs);
+  }
+
+  .ProfileImage {
+    border-radius: 50%;
+    object-fit: cover;
+    max-width: 100%;
+  }
+}

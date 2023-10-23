@@ -29,26 +29,7 @@
   font-size: calc(3 * var(--font-xxxxxl));
 }
 
-@media (max-width: 600px) {
-  .ErrorCode {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: calc(4 * var(--font-xxxxxl));
-    height: calc(2 * var(--space-xxxxl));
-  }
-
-  .lostEmoji {
-    width: calc(2 * var(--font-xxxxxl));
-    height: calc(2 * var(--font-xxxxxl));
-  }
-
-  .Oops {
-    font-size: calc(2 * var(--font-xxxxxl));
-  }
-}
-
-@media (max-width: 400px) {
+@media (max-width: 480px) {
   .ErrorCode {
     display: flex;
     justify-content: center;
@@ -65,5 +46,24 @@
 
   .Oops {
     font-size: calc(var(--font-xxxxxl));
+  }
+}
+
+@media (max-width: 600px) {
+  .ErrorCode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: calc(4 * var(--font-xxxxxl));
+    height: calc(2 * var(--space-xxxxl));
+  }
+
+  .lostEmoji {
+    width: calc(2 * var(--font-xxxxxl));
+    height: calc(2 * var(--font-xxxxxl));
+  }
+
+  .Oops {
+    font-size: calc(2 * var(--font-xxxxxl));
   }
 }

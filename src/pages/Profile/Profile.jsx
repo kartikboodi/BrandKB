@@ -1,5 +1,7 @@
 import Layout from "../../components/Layout";
-import profileImage from "../../data/kb2.gif";
+import ProfileImage from "./components/ProfileImage/ProfileImage";
+import ProfileName from "./components/ProfileName/ProfileName";
+import ProfileSummary from "./components/ProfileSummary/ProfileSummary";
 
 import "./Profile.css";
 
@@ -7,9 +9,12 @@ const Profile = () => {
   return (
     <div className="ProfilePage">
       <Layout>
-        <div className="ProfileImageContainer">
-          <img className="ProfileImage" src={profileImage} alt="profile" />
+        <div className="ProfileContainer">
+          <ProfileImage />
+          <ProfileName />
         </div>
+        <hr />
+        <ProfileSummary />
       </Layout>
     </div>
   );

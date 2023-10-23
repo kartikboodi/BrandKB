@@ -1,0 +1,11 @@
+@import "../../vars/index.css";
+
+.Typography {
+  font-size: var(--font-m);
+}
+
+@media only screen and (max-width: 480px) {
+  .Typography {
+    font-size: var(--font-s);
+  }
+}

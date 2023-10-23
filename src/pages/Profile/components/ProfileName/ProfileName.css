@@ -1,0 +1,22 @@
+.ProfileNameContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 0 0 2rem;
+}
+
+.ProfileNameContainer .Header {
+  margin-bottom: var(--space-xxs);
+}
+
+@media only screen and (max-width: 480px) {
+  .ProfileNameContainer {
+    display: flex;
+    flex-direction: column;
+    margin: var(--zero);
+    margin-top: 0.5rem;
+  }
+
+  .ProfileNameContainer .Header {
+    margin-bottom: var(--space-xxs);
+  }
+}

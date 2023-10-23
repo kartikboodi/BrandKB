@@ -1,0 +1,17 @@
+import Header from "../../../../components/Header/Header";
+import { HeaderRanks } from "../../../../components/Header/HeaderConstants";
+import SubHeader from "../../../../components/SubHeader";
+import { NAME } from "../../../../data/Constants";
+
+import "./ProfileName.css";
+
+const ProfileName = () => {
+  return (
+    <div className="ProfileNameContainer">
+      <Header rank={HeaderRanks.FIRST}>{NAME}</Header>
+      <SubHeader>Software Development Engineer</SubHeader>
+    </div>
+  );
+};
+
+export default ProfileName;
