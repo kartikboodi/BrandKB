@@ -14,7 +14,7 @@ const Profile = () => {
           <ProfileName />
         </div>
         <hr />
-        <ProfileSummary />
+        <ProfileSummary delay={30} />
       </Layout>
     </div>
   );
