@@ -4,6 +4,8 @@ import Header from "../../../../components/Header/Header";
 import { HeaderRanks } from "../../../../components/Header/HeaderConstants";
 import Typography from "../../../../components/Typography";
 import { profileSummary } from "../../../../data/Constants";
+import ToastMessage from "../../../../components/ToastMessage/ToastMessage";
+import { TOAST_TYPES } from "../../../../components/ToastMessage/ToastTypes";
 
 import "./ProfileSummary.css";
 
@@ -37,6 +39,11 @@ const ProfileSummary = ({ delay }) => {
     <div className="ProfileSummary" onClick={handleSummaryClick}>
       <Header rank={HeaderRanks.SECOND}>Profile Summary</Header>
       <Typography>{summary}</Typography>
+      <ToastMessage
+        type={TOAST_TYPES.INFO}
+        message={toastMessage}
+        delay={500}
+      />
     </div>
   );
 };
