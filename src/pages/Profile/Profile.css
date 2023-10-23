@@ -1,20 +1,19 @@
 @import "../../vars/index.css";
 
-.ProfilePage {
+.ProfilePage .Layout {
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
+
+.ProfilePage .ProfileContainer {
   display: flex;
-  justify-content: center;
+  align-items: center;
 }
 
-.ProfileImageContainer {
-  display: inline-flex;
-  border: var(--space-xxxxxs) solid var(--color-yellow-green);
-  width: calc(2 * var(--space-xxxxxl));
-  border-radius: 50%;
-  margin: var(--space-s);
-}
-
-.ProfileImage {
-  border-radius: 50%;
-  object-fit: cover;
-  max-width: 100%;
+@media only screen and (max-width: 480px) {
+  .ProfilePage .ProfileContainer {
+    display: block;
+    text-align: center;
+  }
 }

@@ -1,9 +1,8 @@
-@import "../../vars";
+@import "../../vars/index.css";
 
 .Header {
   display: block;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .first {
@@ -13,7 +12,7 @@
 }
 
 .second {
-  font-size: var(--font-xxxxl);
+  font-size: var(--font-xxxl);
   font-weight: var(--font-bold-xl);
   line-height: var(--line-xxxxl);
 }
@@ -30,8 +29,28 @@
   line-height: var(--line-xl);
 }
 
-@media (max-width: 400px) {
+@media only screen and (max-width: 480px) {
   .first {
+    font-size: var(--font-xxl);
+    font-weight: var(--font-bold-xl);
+    line-height: var(--line-xxl);
+  }
+
+  .second {
+    font-size: var(--font-xl);
+    font-weight: var(--font-bold-xl);
+    line-height: var(--line-xxxxl);
+  }
+
+  .third {
     font-size: var(--font-l);
+    font-weight: var(--font-bold);
+    line-height: var(--line-xl);
+  }
+
+  .fourth {
+    font-size: var(--font-m);
+    font-weight: var(--font-bold);
+    line-height: var(--line-l);
   }
 }

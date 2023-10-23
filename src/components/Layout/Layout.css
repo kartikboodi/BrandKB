@@ -3,5 +3,22 @@
 .Layout {
   height: 100vh;
   width: auto;
-  margin: var(--zero) var(--space-xxxxxl) var(--zero) var(--space-xxxxxl);
+  margin: var(--zero) calc(2 * var(--space-xxxxxl)) var(--zero)
+    calc(2 * var(--space-xxxxxl));
+}
+
+@media only screen and (max-width: 480px) {
+  .Layout {
+    height: 100vh;
+    width: auto;
+    margin: var(--zero) var(--space-m);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .Layout {
+    height: 100vh;
+    width: auto;
+    margin: var(--zero) var(--space-xxl);
+  }
 }

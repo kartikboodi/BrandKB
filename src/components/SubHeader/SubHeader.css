@@ -1,0 +1,17 @@
+@import "../../vars/index.css";
+
+.SubHeader {
+  display: block;
+  font-size: var(--font-xl);
+  line-height: var(--line-xxxxl);
+  color: var(--color-grey);
+  font-family: "Century Gothic";
+  font-weight: var(--font-bold);
+}
+
+@media only screen and (max-width: 480px) {
+  .SubHeader {
+    font-size: var(--font-m);
+    line-height: var(--line-l);
+  }
+}
