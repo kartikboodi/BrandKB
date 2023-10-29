@@ -1,7 +1,7 @@
 import Header from "../../components/Header";
 import { HeaderRanks } from "../../components/Header/HeaderConstants";
 import Layout from "../../components/Layout";
-import lostEmoji from "../../data/lostEmoji.svg";
+import lostEmoji from "../../data/LostEmoji.svg";
 
 import "./PageNotFound.css";
 

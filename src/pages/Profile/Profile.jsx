@@ -7,16 +7,14 @@ import "./Profile.css";
 
 const Profile = () => {
   return (
-    <div className="ProfilePage">
-      <Layout>
-        <div className="ProfileContainer">
-          <ProfileImage />
-          <ProfileName />
-        </div>
-        <hr />
-        <ProfileSummary delay={30} />
-      </Layout>
-    </div>
+    <Layout>
+      <div className="ProfilePage">
+        <ProfileImage />
+        <ProfileName />
+      </div>
+      <hr />
+      <ProfileSummary delay={30} />
+    </Layout>
   );
 };
 
