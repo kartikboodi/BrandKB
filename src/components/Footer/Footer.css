@@ -4,7 +4,7 @@
   background-color: whitesmoke;
   box-shadow: 0 0 20px 0 rgb(170, 200, 200);
   margin-top: auto;
-  position: sticky;
+  position: static;
   bottom: 0;
 }
 
