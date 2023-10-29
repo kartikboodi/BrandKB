@@ -1,19 +1,13 @@
 @import "../../vars/index.css";
 
-.ProfilePage .Layout {
-  /* display: flex;
-  flex-direction: column;
-  align-items: center; */
-}
-
-.ProfilePage .ProfileContainer {
+.ProfilePage {
   display: flex;
   align-items: center;
 }
 
-@media only screen and (max-width: 480px) {
-  .ProfilePage .ProfileContainer {
-    display: block;
-    text-align: center;
+@media only screen and (max-width: 580px) {
+  .ProfilePage {
+    display: flex;
+    flex-direction: column;
   }
 }

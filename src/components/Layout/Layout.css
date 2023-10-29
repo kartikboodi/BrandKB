@@ -1,24 +1,27 @@
 @import "../../vars/index.css";
 
 .Layout {
-  height: 100vh;
+  height: 100%;
   width: auto;
-  margin: var(--zero) calc(2 * var(--space-xxxxxl)) var(--zero)
-    calc(2 * var(--space-xxxxxl));
+  margin: var(--zero) calc(2.5 * var(--space-xxxxxl)) var(--zero)
+    calc(2.5 * var(--space-xxxxxl));
+  overflow: auto;
 }
 
 @media only screen and (max-width: 480px) {
   .Layout {
-    height: 100vh;
-    width: auto;
     margin: var(--zero) var(--space-m);
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 900px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .Layout {
-    height: 100vh;
-    width: auto;
-    margin: var(--zero) var(--space-xxl);
+    margin: var(--zero) var(--space-xxxxl);
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 980px) {
+  .Layout {
+    margin: var(--zero) var(--space-xxxxxl);
   }
 }

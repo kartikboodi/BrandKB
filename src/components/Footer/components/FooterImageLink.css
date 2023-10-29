@@ -1,0 +1,39 @@
+.FooterImageLink {
+  display: flex;
+  align-items: center;
+}
+
+.FooterImage {
+  margin-right: 0.5rem;
+}
+
+.FooterText,
+.FooterText-link {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-weight: 500;
+  color: royalblue;
+  text-decoration: none;
+  font-size: var(--font-l);
+}
+
+.FooterText-link:hover {
+  text-decoration: underline;
+  color: darkviolet;
+}
+
+@media only screen and (max-width: 480px) {
+  .FooterText,
+  .FooterText-link {
+    margin-top: 0.1rem;
+    font-size: var(--font-s);
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .FooterText,
+  .FooterText-link {
+    margin-top: 0.2rem;
+    font-size: var(--font-m);
+  }
+}

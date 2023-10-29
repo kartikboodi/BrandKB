@@ -1,4 +1,45 @@
+@import "../../../../vars/index.css";
+
 .ProfileSummary .Header {
   margin-top: var(--space-l);
   margin-bottom: var(--space-xs);
+}
+
+.ProfileSummary .Typography {
+  font-size: var(--font-l);
+}
+
+@media only screen and (max-width: 580px) {
+  .ProfileSummary .Header {
+    margin-top: var(--space-s);
+    margin-bottom: var(--space-xxs);
+  }
+  .ProfileSummary .Typography {
+    font-size: var(--font-m);
+  }
+}
+
+@media only screen and (min-width: 581px) and (max-width: 768px) {
+  .ProfileSummary .Header {
+    margin-top: var(--space-m);
+    margin-bottom: var(--space-s);
+  }
+  .ProfileSummary .Typography {
+    font-size: var(--font-l);
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-height: 140000px) {
+  .ProfileSummary .Header {
+    margin-top: var(--space-xl);
+    margin-bottom: var(--space-m);
+  }
+
+  .ProfileSummary .Header .second {
+    font-size: var(--font-xxxxl);
+  }
+
+  .ProfileSummary .Typography {
+    font-size: var(--font-xl);
+  }
 }

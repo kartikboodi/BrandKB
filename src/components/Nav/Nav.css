@@ -1,5 +1,9 @@
 @import "../../vars/index.css";
 
+.navbar-override {
+  background: linear-gradient(90deg, #25355f 0%, #86f0c8 100%);
+}
+
 .navbar .container {
   max-width: 100%;
   margin: var(--zero) var(--space-m);
@@ -9,6 +13,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: white !important;
 }
 
 .logo-container {
@@ -16,7 +21,7 @@
   height: calc(var(--space-l) + var(--space-xxs));
   width: calc(var(--space-l) + var(--space-xxs));
   border-radius: 25%;
-  border: var(--space-xxxxs) solid whitesmoke;
+  border: var(--space-xxxxs) solid white;
   padding: var(--space-xxxs);
   margin-right: var(--space-xxxs);
 }

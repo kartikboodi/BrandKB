@@ -8,12 +8,13 @@
   margin-bottom: var(--space-xxs);
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
   .ProfileNameContainer {
     display: flex;
     flex-direction: column;
     margin: var(--zero);
     margin-top: 0.5rem;
+    align-items: center;
   }
 
   .ProfileNameContainer .Header {

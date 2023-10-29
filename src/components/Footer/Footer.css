@@ -1,0 +1,41 @@
+.Footer {
+  height: 6rem;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 0 20px 0 rgb(170, 200, 200);
+  margin-top: auto;
+  position: sticky;
+  bottom: 0;
+}
+
+.Footer .Layout {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Footer-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 480px) {
+  .Footer {
+    height: 8rem;
+  }
+
+  .Footer-content {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 900px) {
+  .Footer {
+    height: 8rem;
+  }
+
+  .Footer-content {
+    flex-direction: column;
+  }
+}
