@@ -4,7 +4,7 @@
   background: linear-gradient(90deg, #25355f 0%, #86f0c8 100%);
 }
 
-.navbar .container {
+.navbar .navbar-container {
   max-width: 100%;
   margin: var(--zero) var(--space-m);
 }
@@ -30,6 +30,24 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+.navbar .nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 0.1;
+  margin-right: 5rem;
+  font-size: var(--font-xl);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.nav-links .link-text {
+  font-weight: var(--font-bold-l);
+  color: black;
+}
+
+.nav-links .link-text:hover {
+  color: whitesmoke;
 }
 
 @media only screen and (max-width: 480px) {

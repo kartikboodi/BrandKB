@@ -3,9 +3,10 @@ import { useEffect, useMemo, useState } from "react";
 import Header from "../../../../components/Header/Header";
 import { HeaderRanks } from "../../../../components/Header/HeaderConstants";
 import Typography from "../../../../components/Typography";
-import { profileSummary } from "../../../../data/Constants";
+import { profileSummary } from "../../../../data/content";
 import ToastMessage from "../../../../components/ToastMessage/ToastMessage";
 import { TOAST_TYPES } from "../../../../components/ToastMessage/ToastTypes";
+import { ProfileNotification } from "../../../../data/constants";
 
 import "./ProfileSummary.css";
 
@@ -13,10 +14,7 @@ const ProfileSummary = ({ delay }) => {
   const [summary, setSummary] = useState("");
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const toastMessage = useMemo(
-    () => <i>{`Tap "Profile Summary" for an instant full view`}</i>,
-    []
-  );
+  const toastMessage = useMemo(() => <i>{ProfileNotification}</i>, []);
 
   useEffect(() => {
     if (currentIndex < profileSummary.length) {

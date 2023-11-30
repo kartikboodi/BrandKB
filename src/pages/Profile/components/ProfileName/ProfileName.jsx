@@ -1,7 +1,7 @@
 import Header from "../../../../components/Header/Header";
 import { HeaderRanks } from "../../../../components/Header/HeaderConstants";
 import SubHeader from "../../../../components/SubHeader";
-import { NAME } from "../../../../data/Constants";
+import { NAME } from "../../../../data/content";
 
 import "./ProfileName.css";
 
