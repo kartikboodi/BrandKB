@@ -7,7 +7,7 @@ import logo from "../../data/KBLogo.svg";
 import Header from "../Header";
 import { HeaderRanks } from "../Header/HeaderConstants";
 import { PATHS } from "../Router/constants";
-import { NAVBAR_TITLES } from "../../data/constants";
+import { NAVBAR_TITLES } from "../../data/appConstants";
 
 import "./AppNavbar.css";
 
