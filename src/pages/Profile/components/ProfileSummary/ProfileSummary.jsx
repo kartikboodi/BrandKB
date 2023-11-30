@@ -6,7 +6,7 @@ import Typography from "../../../../components/Typography";
 import { profileSummary } from "../../../../data/content";
 import ToastMessage from "../../../../components/ToastMessage/ToastMessage";
 import { TOAST_TYPES } from "../../../../components/ToastMessage/ToastTypes";
-import { ProfileNotification } from "../../../../data/constants";
+import { ProfileNotification } from "../../../../data/appConstants";
 
 import "./ProfileSummary.css";
 
