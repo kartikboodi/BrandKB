@@ -4,7 +4,7 @@ import github from "../../data/github.gif";
 import email from "../../data/email.gif";
 import phone from "../../data/phone.gif";
 import FooterImageLink from "./components/FooterImageLink";
-import { contactDetails } from "../../data/Constants";
+import { contactDetails } from "../../data/content";
 
 import "./Footer.css";
 
