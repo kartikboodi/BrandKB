@@ -1,11 +1,11 @@
 import { OverlayTrigger, Tooltip } from "react-bootstrap";
 
-import "./FooterImageLink.css";
+import "./ContactImage.css";
 
-const FooterImageLink = ({ image, text, link, tooltip }) => {
+const ContactImage = ({ image, text, link, tooltip }) => {
   const renderTooltip = (props) => {
     return (
-      <Tooltip id="footer-tooltip" {...props}>
+      <Tooltip id="contact-tooltip" {...props}>
         {tooltip}
       </Tooltip>
     );
@@ -17,11 +17,11 @@ const FooterImageLink = ({ image, text, link, tooltip }) => {
       delay={{ show: 250, hide: 400 }}
       overlay={tooltip ? renderTooltip : <div />}
     >
-      <div className="FooterImageLink">
-        <img className="FooterImage" src={image} alt="Loading" height={40} />
+      <div className="contact-image-container">
+        <img className="contact-image" src={image} alt="Loading" height={40} />
         {link ? (
           <a
-            className="FooterText-link"
+            className="contact-details-text-link"
             href={link}
             target="_blank"
             rel="noreferrer"
@@ -29,11 +29,11 @@ const FooterImageLink = ({ image, text, link, tooltip }) => {
             {text}
           </a>
         ) : (
-          <span className="FooterText">{text}</span>
+          <span className="contact-details-text">{text}</span>
         )}
       </div>
     </OverlayTrigger>
   );
 };
 
-export default FooterImageLink;
+export default ContactImage;

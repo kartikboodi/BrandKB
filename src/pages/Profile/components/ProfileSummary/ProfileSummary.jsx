@@ -1,12 +1,14 @@
 import { useEffect, useMemo, useState } from "react";
 
-import Header from "../../../../components/Header/Header";
-import { HeaderRanks } from "../../../../components/Header/HeaderConstants";
 import Typography from "../../../../components/Typography";
 import { profileSummary } from "../../../../data/content";
 import ToastMessage from "../../../../components/ToastMessage/ToastMessage";
 import { TOAST_TYPES } from "../../../../components/ToastMessage/ToastTypes";
-import { ProfileNotification } from "../../../../data/appConstants";
+import {
+  PAGE_HEADERS,
+  ProfileNotification,
+} from "../../../../data/appConstants";
+import PageHeader from "../../../../components/PageHeader";
 
 import "./ProfileSummary.css";
 
@@ -35,7 +37,7 @@ const ProfileSummary = ({ delay }) => {
 
   return (
     <div className="ProfileSummary" onClick={handleSummaryClick}>
-      <Header rank={HeaderRanks.SECOND}>Profile Summary</Header>
+      <PageHeader title={PAGE_HEADERS.Summary} />
       <Typography>{summary}</Typography>
       <ToastMessage
         type={TOAST_TYPES.INFO}

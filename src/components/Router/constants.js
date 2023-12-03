@@ -1,5 +1,5 @@
 export const PATHS = {
-  profileSummary: "/profile",
-  skills: "/skills",
-  experience: "/experience",
+  profileSummary: "/profile-summary",
+  skills: "/tech-prowess",
+  experience: "/tech-career",
 };

@@ -8,7 +8,7 @@ import "./ProfileName.css";
 const ProfileName = () => {
   return (
     <div className="ProfileNameContainer">
-      <Header rank={HeaderRanks.FIRST}>{NAME}</Header>
+      <Header rank={HeaderRanks.SECOND}>{NAME}</Header>
       <SubHeader>Software Development Engineer</SubHeader>
     </div>
   );

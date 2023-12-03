@@ -1,12 +1,8 @@
 @import "../../vars/index.css";
 
 .Layout {
-  height: 100%;
-  width: auto;
-  margin: var(--zero) calc(2.5 * var(--space-xxxxxl)) var(--zero)
-    calc(2.5 * var(--space-xxxxxl));
-  overflow: auto;
-  flex-grow: 1;
+  margin: var(--space-l);
+  width: 85%;
 }
 
 @media only screen and (max-width: 480px) {
