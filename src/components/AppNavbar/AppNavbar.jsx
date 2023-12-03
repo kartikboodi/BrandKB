@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
+import { Link } from "react-router-dom";
 
 import logo from "../../data/KBLogo.svg";
 import Header from "../Header";
@@ -22,15 +23,15 @@ const AppNavbar = () => {
           <Header rank={HeaderRanks.FOURTH}>Portfolio</Header>
         </Navbar.Brand>
         <Nav className="nav-links">
-          <Nav.Link className="link-text" href={PATHS.profileSummary}>
+          <Link className="link-text nav-link" to={PATHS.profileSummary}>
             {NAVBAR_TITLES.Summary}
-          </Nav.Link>
-          <Nav.Link className="link-text" href={PATHS.skills}>
+          </Link>
+          <Link className="link-text nav-link" to={PATHS.skills}>
             {NAVBAR_TITLES.SkillSet}
-          </Nav.Link>
-          <Nav.Link className="link-text" href={PATHS.experience}>
+          </Link>
+          <Link className="link-text nav-link" to={PATHS.experience}>
             {NAVBAR_TITLES.Experience}
-          </Nav.Link>
+          </Link>
         </Nav>
       </Container>
     </Navbar>

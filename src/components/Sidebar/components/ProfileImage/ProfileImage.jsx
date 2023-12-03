@@ -1,3 +1,4 @@
+import { Image } from "react-bootstrap";
 import profileImage from "../../../../data/kb2.gif";
 
 import "./ProfileImage.css";
@@ -5,7 +6,7 @@ import "./ProfileImage.css";
 const ProfileImage = () => {
   return (
     <div className="ProfileImageContainer">
-      <img className="ProfileImage" src={profileImage} alt="profile" />
+      <Image className="ProfileImage" src={profileImage} thumbnail />
     </div>
   );
 };

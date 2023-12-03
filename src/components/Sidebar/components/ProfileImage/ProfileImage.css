@@ -6,15 +6,13 @@
   max-width: calc(2 * var(--space-xxxxxl));
   max-height: calc(2 * var(--space-xxxxxl));
   border-radius: 50%;
-  margin: var(--space-s);
-  margin-left: var(--zero);
-  margin-bottom: var(--zero);
+  margin-top: var(--space-s);
 }
 
 .ProfileImage {
-  border-radius: 50%;
   object-fit: cover;
   max-width: 100%;
+  border-radius: 50% !important;
 }
 
 @media only screen and (max-width: 480px) {

@@ -2,11 +2,11 @@
 
 .SubHeader {
   display: block;
-  font-size: var(--font-xl);
+  font-size: var(--font-m);
   line-height: var(--line-xxxxl);
   color: var(--color-grey);
   font-family: "Century Gothic";
-  font-weight: var(--font-bold);
+  font-weight: var(--font-bold-xl);
 }
 
 @media only screen and (max-width: 480px) {

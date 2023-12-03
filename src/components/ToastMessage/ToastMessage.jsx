@@ -32,6 +32,7 @@ const ToastMessage = ({ type, message, delay }) => {
 
   return (
     <ToastContainer
+      position="top-left"
       autoClose={3500}
       hideProgressBar={false}
       newestOnTop={true}

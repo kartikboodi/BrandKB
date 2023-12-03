@@ -1,7 +1,7 @@
 export const NAME = "KARTIK BOODI";
 
 export const profileSummary = `Results-driven and adaptable software professional with over five years of experience.
-I possess a strong problem-solving aptitude, logical thinking abilities, and excellent communication skills. 
+I possess a strong problem-solving aptitude, logical thinking abilities, and excellent communication skills.
 My expertise spans web development (Backend and Frontend), automation, and database management. 
 I have a solid background in Object-Oriented Design, Data Structures, and Algorithms. 
 I am enthusiastic about taking on challenging roles in software development, 
@@ -13,5 +13,3 @@ export const contactDetails = {
   linkedInProfile: "https://www.linkedin.com/in/kartikboodi/",
   githubProfile: "https://github.com/kartikboodi",
 };
-
-

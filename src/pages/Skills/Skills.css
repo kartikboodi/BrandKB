@@ -1,0 +1,21 @@
+.skills-tabs-container {
+  display: flex;
+}
+
+/* .skills-tabs-row {
+  height: 100%;
+} */
+
+.vertical-tabs {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.vertical-tabs .nav-link {
+  transform: rotate(-90deg);
+}
+
+.vertical-tabs .nav-link.active {
+  background-color: #f8f9fa; /* Add your preferred active tab background color */
+}
