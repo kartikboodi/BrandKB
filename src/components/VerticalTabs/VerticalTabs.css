@@ -1,0 +1,39 @@
+@import "../../vars/index.css";
+
+.vertical-tabs-row {
+  flex-grow: 1;
+}
+
+.vertical-tabs {
+  height: 100%;
+  flex-direction: column;
+}
+
+.vertical-tabs .nav-item {
+  flex-grow: 1;
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+.vertical-tabs .nav-link {
+  border: outset 5px lightblue !important;
+  background-color: lightblue;
+  font-weight: var(--font-bold-l);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 0rem !important;
+}
+
+.vertical-tabs .nav-link:hover {
+  background-color: lightcyan !important;
+  border: outset 5px lightcyan !important;
+  color: black;
+}
+
+.vertical-tabs .nav-link.active {
+  color: white !important;
+  border: inset royalblue !important;
+  background-color: royalblue !important;
+  border-width: 5px 0px 5px 5px !important;
+}
