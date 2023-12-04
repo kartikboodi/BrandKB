@@ -4,10 +4,10 @@ import email from "../../../../data/email.gif";
 import linkedIn from "../../../../data/linkedin-logo.svg";
 import github from "../../../../data/github.gif";
 import ContactImage from "../ContactImage/ContactImage";
-
-import "./ContactDetails.css";
 import Header from "../../../Header";
 import { HeaderRanks } from "../../../Header/HeaderConstants";
+
+import "./ContactDetails.css";
 
 const ContactInfo = () => {
   const { emailId, phoneNumber, linkedInProfile, githubProfile } =
