@@ -6,7 +6,7 @@ export const NAVBAR_TITLES = {
 
 export const PAGE_HEADERS = {
   Summary: "Profile Summary",
-  SkillSet: "Tech Skills",
+  SkillSet: "Technical Skills",
   Experience: "Experience",
 };
 

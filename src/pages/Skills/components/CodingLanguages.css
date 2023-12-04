@@ -1,0 +1,27 @@
+.coding-languages .SubHeader {
+  margin-bottom: 2rem;
+  font-size: larger;
+}
+
+.languages-list {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.languages-list .list-group-item:hover {
+  background-color: lightgrey;
+}
+
+.languages-list .list-group-item a {
+  text-decoration: none;
+  color: black;
+}
+
+.languages-list .list-group-item img {
+  margin-right: 1.5rem;
+}
+
+.languages-list .list-group-item img:hover {
+  border: outset 2px lightcyan;
+  border-radius: 10%;
+}

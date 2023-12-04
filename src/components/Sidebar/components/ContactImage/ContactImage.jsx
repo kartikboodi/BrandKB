@@ -13,7 +13,7 @@ const ContactImage = ({ image, text, link, tooltip }) => {
 
   return (
     <OverlayTrigger
-      placement="right"
+      placement="bottom-end"
       delay={{ show: 250, hide: 400 }}
       overlay={tooltip ? renderTooltip : <div />}
     >
