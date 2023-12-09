@@ -1,3 +1,5 @@
+@import "../../../../vars/index.css";
+
 .contact-info {
   display: flex;
   flex-direction: column;
@@ -5,6 +7,13 @@
   width: 100%;
   padding-left: 1rem;
   height: 15rem;
+}
+
+.contact-info .SubHeader {
+  color: darkslateblue;
+  font-size: var(--font-l);
+  font-weight: var(--font-black);
+  margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 480px) {
