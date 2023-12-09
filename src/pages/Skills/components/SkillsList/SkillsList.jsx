@@ -16,7 +16,7 @@ const SkillsList = ({ title, listItems }) => {
           {listItems.map((item) => (
             <ListGroup.Item>
               <a href={item.link} target="_blank" rel="noreferrer">
-                <Image src={item.logo} />
+                <Image src={item.logo} width={50} height={50} thumbnail />
               </a>
               {item.content}
             </ListGroup.Item>
