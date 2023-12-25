@@ -1,18 +1,15 @@
 import React, { useState } from "react";
 import { Col, Nav, Row, Tab } from "react-bootstrap";
-import clickAudio from "../../data/pen-click.wav";
 
 import "./VerticalTabs.css";
 
 const VerticalTabs = ({ tabs }) => {
   const tabTitles = tabs ? Object.keys(tabs) : [];
-  const audio = new Audio(clickAudio);
 
   const [activeTab, setActiveTab] = useState(1);
 
   const handleTabClick = (eventKey) => {
     if (eventKey !== activeTab) {
-      audio.play();
       setActiveTab(eventKey);
     }
   };
